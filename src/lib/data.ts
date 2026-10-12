@@ -48,8 +48,10 @@ export const worksMeta: Record<string, WorkMeta> = {
       "radial-gradient(120% 120% at 15% 0%, #c5e4f2 0%, #e5f2f9 55%, #f4fafc 100%)",
     image: "/works/taxfolio/cover.webp",
     links: [
-      { kind: "github", href: "https://github.com/chlebaak/trading" },
-      { kind: "live", href: "https://trading-six-ecru.vercel.app" },
+      {
+        kind: "github",
+        href: "https://github.com/chlebaak/Trading-and-Tax-Tracker-for-Trading-212",
+      },
     ],
   },
   knihotok: {

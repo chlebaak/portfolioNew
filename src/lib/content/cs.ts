@@ -172,22 +172,23 @@ export const cs: Content = {
       title: "Taxfolio",
       year: "2026",
       category: "Automatizace & data",
-      tagline: "Tracker portfolia z Trading 212 s daňovým přehledem.",
+      tagline: "Live dashboard portfolia z Trading 212 s hlídáním českých daní.",
       brief:
         "Investování přes Trading 212 generuje stovky obchodů ročně — a s nimi ruční počítání daní. Chtěl jsem přehled, který data stáhne, spočítá a vysvětlí.",
       solution:
-        "Next.js aplikace, která sleduje portfolio, dopočítává daňové povinnosti a generuje srozumitelné reporty — s grafy a AI asistencí.",
+        "Next.js dashboard napojený přímo na live Trading 212 API — hlídá hodnotový test (limit 100 000 Kč) i časový test s FIFO účtováním lotů a ukazuje, kdy která pozice přestane být zdanitelná.",
       learned:
-        "Práce s externími API (Trading 212, Yahoo Finance) a návrh pipeline, kde AI vrstva doplňuje data, ne nahrazuje.",
+        "Napojení live API s rate limity (cache, paginace, error handling) a implementace daňové logiky — FIFO loty, hodnotový a časový test podle §4 zákona o daních z příjmů.",
       stack: [
         "Next.js 16",
+        "React 19",
         "TypeScript",
+        "Tailwind CSS",
+        "Trading 212 API",
         "Recharts",
-        "Yahoo Finance API",
-        "Gemini API",
       ],
       type: "Osobní projekt",
-      status: "Live",
+      status: "Live (privátní)",
     },
     {
       id: "knihotok",

@@ -171,22 +171,23 @@ export const en: Content = {
       title: "Taxfolio",
       year: "2026",
       category: "Automation & data",
-      tagline: "Trading 212 portfolio tracker with a tax overview.",
+      tagline: "Live Trading 212 portfolio dashboard with Czech tax monitoring.",
       brief:
         "Investing through Trading 212 generates hundreds of trades a year — and a pile of manual tax math. I wanted an overview that fetches, calculates and explains.",
       solution:
-        "A Next.js app that tracks the portfolio, computes tax liabilities and generates readable reports — with charts and AI assistance.",
+        "A Next.js dashboard wired straight into the live Trading 212 API — tracking the 100,000 CZK value test and the 3-year time test with FIFO lot accounting, showing when each position becomes tax-free.",
       learned:
-        "Working with external APIs (Trading 212, Yahoo Finance) and designing a pipeline where the AI layer augments data instead of replacing it.",
+        "Wiring a live API with rate limits (caching, pagination, error handling) and implementing the tax logic — FIFO lots and the value & time tests under §4 of the Czech Income Tax Act.",
       stack: [
         "Next.js 16",
+        "React 19",
         "TypeScript",
+        "Tailwind CSS",
+        "Trading 212 API",
         "Recharts",
-        "Yahoo Finance API",
-        "Gemini API",
       ],
       type: "Personal project",
-      status: "Live",
+      status: "Live (private)",
     },
     {
       id: "knihotok",
