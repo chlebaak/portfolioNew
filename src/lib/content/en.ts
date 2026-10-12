@@ -4,7 +4,7 @@ export const en: Content = {
   meta: {
     title: "Jan Fiala — Full-Stack Developer & Automation Builder",
     description:
-      "Applied informatics student at the Prague University of Economics and Business. I build web applications, automations and internal tools — from data model to the last pixel.",
+      "Applied informatics student at the Prague University of Economics and Business. I focus on websites with complete design, AI automations, and robust SaaS platforms.",
   },
   site: { status: "Open for work", availability: "Q2/Q3" },
   header: { consoleLabel: "Console", languageLabel: "Language" },
@@ -18,25 +18,26 @@ export const en: Content = {
     localTime: "Local time",
     status: "Status",
     fallback:
-      "I work at Valeo R&D on automations for engineering teams. In the evenings I build Tattly and learn Docker and CI/CD.",
+      "I work at Valeo R&D on automations for engineering teams. In the evenings, I build Tattly and focus on modern architecture and application deployment.",
   },
   worksSection: { eyebrow: "Selected works" },
   services: {
     eyebrow: "What I can build for you",
     items: [
       {
-        title: "Web applications",
+        title: "Websites & complete design",
         description:
-          "Next.js, React, PostgreSQL. From data model to production deploy.",
+          "I design and build fast, accessible, and visually clean custom websites. From the initial sketch to the final launch.",
       },
       {
-        title: "Automation & scripts",
+        title: "AI & script automation",
         description:
-          "Python and integrations that kill manual work — reporting, data, internal tools.",
+          "I streamline routine processes. I connect systems and build smart tools that save time and minimize manual work.",
       },
       {
-        title: "Websites & landing pages",
-        description: "Fast, accessible custom websites. Design and development.",
+        title: "SaaS platforms & APIs",
+        description:
+          "I build robust web applications and booking systems. I handle the complete architecture from database design to the user interface.",
       },
     ],
     footer: "Not sure where your project fits?",
@@ -59,7 +60,7 @@ export const en: Content = {
       program: "Applied Informatics",
       graduation: "2028",
       focus:
-        "I focus on software engineering, database systems and automation.",
+        "I focus on software engineering, API integrations, and process automation.",
     },
     experience: [
       {
@@ -67,25 +68,25 @@ export const en: Content = {
         company: "Valeo R&D",
         role: "Software Script Trainee",
         present: true,
-        note: "Automation and internal tooling for R&D teams — Python, scripts, reporting.",
+        note: "Development of internal tools and scripts for process automation in R&D teams, reporting support, and AI integration.",
       },
       {
         period: "2023.02 — 2024.03",
         company: "DS Smith",
         role: "IT Specialist",
-        note: "Managing enterprise systems and infrastructure; operations at corporate scale.",
+        note: "Comprehensive enterprise systems management. Ensuring smooth operation of IT services and infrastructure in a corporate environment.",
       },
       {
         period: "2022.05 — 2022.06",
         company: "DPMÚL",
         role: "IT Infrastructure Intern",
-        note: "Network infrastructure and operations — where my professional path started.",
+        note: "Network infrastructure support and administration — the successful start of my professional journey.",
       },
     ],
   },
   contact: {
     eyebrow: "Contact",
-    headline: "Looking for a junior developer? Or need a website or automation built?",
+    headline: "Looking for a junior developer? Or need a custom website or automated processes?",
     copy: "Copy email",
     copied: "Copied",
     cv: "Download CV",
@@ -146,14 +147,14 @@ export const en: Content = {
       id: "tattly",
       title: "Tattly",
       year: "2026",
-      category: "SaaS platform",
-      tagline: "Booking SaaS for tattoo artists — clients, calendar, notifications.",
+      category: "SaaS platforms & APIs",
+      tagline: "Comprehensive booking platform for tattoo artists with automated notifications and client management.",
       brief:
-        "Tattoo artists handle bookings through Instagram DMs and paper diaries. I wanted to build a system that does it for them.",
+        "Tattoo artists usually spend hours handling bookings through messages and paper diaries. The goal was to build a system that automates and streamlines the entire process.",
       solution:
-        "A booking platform with its own account — availability and client management, photo uploads, email notifications and calendar export.",
+        "A fully functional booking system with custom availability management, a client profile, automated notifications, and calendar synchronization.",
       learned:
-        "Designing a data model for time slots and production integrations: auth, emails, background jobs and object storage.",
+        "Designing complex data models for time slots and production integrations for authentication, communication, and secure data storage.",
       stack: [
         "Next.js 15",
         "TypeScript",
@@ -170,14 +171,14 @@ export const en: Content = {
       id: "taxfolio",
       title: "Taxfolio",
       year: "2026",
-      category: "Automation & data",
-      tagline: "Live Trading 212 portfolio dashboard with Czech tax monitoring.",
+      category: "AI & script automation",
+      tagline: "Analytical investment portfolio dashboard with automated tax calculations and monitoring.",
       brief:
-        "Investing through Trading 212 generates hundreds of trades a year — and a pile of manual tax math. I wanted an overview that fetches, calculates and explains.",
+        "Active investing generates hundreds of transactions a year, complicating tax returns. I needed a tool that automatically processes and evaluates the data.",
       solution:
-        "A Next.js dashboard wired straight into the live Trading 212 API — tracking the 100,000 CZK value test and the 3-year time test with FIFO lot accounting, showing when each position becomes tax-free.",
+        "A system connected to real market data via API. It automatically pairs buys and sells, monitors tax limits, and tracks time tests according to current legislation.",
       learned:
-        "Wiring a live API with rate limits (caching, pagination, error handling) and implementing the tax logic — FIFO lots and the value & time tests under §4 of the Czech Income Tax Act.",
+        "Working with live data via API, query optimization, and implementing complex financial and tax logic into a reliable application.",
       stack: [
         "Next.js 16",
         "React 19",
@@ -193,14 +194,14 @@ export const en: Content = {
       id: "knihotok",
       title: "Knihotok",
       year: "2025",
-      category: "Full-stack system",
-      tagline: "A reading platform — from idea to defence.",
+      category: "SaaS platforms & APIs",
+      tagline: "Community platform for readers focused on sharing and reviewing books.",
       brief:
-        "My high-school final project: a web app for readers — from database design to defending it before a committee.",
+        "The goal of my high-school final project was to design and implement a complete web system for cataloging and reviewing books, from initial concept to final defense.",
       solution:
-        "A separate backend (Express + PostgreSQL with JWT auth) and frontend (React + Vite) — library, ratings and user profiles.",
+        "A decoupled backend and frontend architecture. Building a custom API for database communication, ensuring secure authentication, and creating an interactive user interface.",
       learned:
-        "The complete full-stack cycle: API design, authentication, deployment — and defending my own code in front of a committee.",
+        "Mastering the entire application development cycle, from database design and secure access to the successful presentation of the finished product.",
       stack: ["React", "Vite", "Express", "PostgreSQL", "JWT"],
       type: "High-school final project",
       status: "Live",
@@ -209,14 +210,14 @@ export const en: Content = {
       id: "refugio",
       title: "Refugio",
       year: "2025",
-      category: "Web & brand",
-      tagline: "A website for a restaurant — atmosphere, menu, reservations.",
+      category: "Websites & complete design",
+      tagline: "Visually engaging restaurant website emphasizing atmosphere and smooth user experience.",
       brief:
-        "The restaurant needed a site that sells both the atmosphere and the menu — and works great on mobile.",
+        "A local restaurant needed a modern online presence to showcase its unique atmosphere, with a strong focus on mobile performance.",
       solution:
-        "A visually rich site with a motion layer — menu, gallery and contact in one smooth experience.",
+        "A dynamic and responsive website with fluid animations, combining the menu, gallery, and contact information into a single seamless layout.",
       learned:
-        "Balancing a bold visual with speed and readability — and designing mobile-first.",
+        "Finding the balance between rich visual design and fast load times, with a primary focus on responsiveness and accessibility.",
       stack: ["React 19", "Vite", "Tailwind CSS", "Framer Motion"],
       type: "Client project",
       status: "Live",

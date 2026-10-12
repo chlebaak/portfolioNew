@@ -4,7 +4,7 @@ export const cs: Content = {
   meta: {
     title: "Jan Fiala — Full-Stack Developer & Automation Builder",
     description:
-      "Student aplikované informatiky na VŠE v Praze. Stavím webové aplikace, automatizace a interní nástroje — od datového modelu po poslední pixel.",
+      "Student aplikované informatiky na VŠE v Praze. Zaměřuji se na weby s kompletním designem, AI automatizace a robustní SaaS platformy.",
   },
   site: { status: "Open for work", availability: "Q2/Q3" },
   header: { consoleLabel: "Konzole", languageLabel: "Jazyk" },
@@ -18,28 +18,29 @@ export const cs: Content = {
     localTime: "Lokální čas",
     status: "Status",
     fallback:
-      "Pracuji ve Valeo R&D na automatizacích pro vývojové týmy. Po večerech stavím Tattly a učím se Docker a CI/CD.",
+      "Pracuji ve Valeo R&D na automatizacích pro vývojové týmy. Po večerech stavím Tattly a řeším moderní architekturu a nasazování aplikací.",
   },
   worksSection: { eyebrow: "Vybrané projekty" },
   services: {
     eyebrow: "Co pro vás umím postavit",
     items: [
       {
-        title: "Webové aplikace",
+        title: "Weby a kompletní design",
         description:
-          "Next.js, React, PostgreSQL. Od datového modelu po produkční deploy.",
+          "Navrhuji a tvořím rychlé, přístupné a vizuálně čisté weby na míru. Od prvního nákresu až po finální spuštění.",
       },
       {
-        title: "Automatizace & skripty",
+        title: "AI a skript automatizace",
         description:
-          "Python a integrace, které zruší ruční práci — reporting, data, interní nástroje.",
+          "Zefektivňuji rutinní procesy. Propojuji systémy a vytvářím chytré nástroje, které šetří čas a minimalizují manuální práci.",
       },
       {
-        title: "Weby & landing pages",
-        description: "Rychlé a přístupné weby na míru. Design i vývoj.",
+        title: "SaaS platformy a API",
+        description:
+          "Stavím robustní webové aplikace a rezervační systémy. Řeším kompletní architekturu od návrhu databáze po uživatelské rozhraní.",
       },
     ],
-    footer: "Nevíte, kam projekt patří?",
+    footer: "Nevíte, kam váš projekt patří?",
     footerLink: "Napište — poradím.",
   },
   stackSection: {
@@ -59,7 +60,7 @@ export const cs: Content = {
       program: "Aplikovaná informatika",
       graduation: "2028",
       focus:
-        "Zaměřuji se na softwarové inženýrství, databázové systémy a automatizaci.",
+        "Zaměřuji se na softwarové inženýrství, integrace API a automatizaci procesů.",
     },
     experience: [
       {
@@ -67,26 +68,26 @@ export const cs: Content = {
         company: "Valeo R&D",
         role: "Software Script Trainee",
         present: true,
-        note: "Automatizace a interní nástroje pro R&D týmy — Python, skripty, reporting.",
+        note: "Vývoj interních nástrojů a skriptů pro automatizaci procesů ve vývojových týmech, podpora reportingu a integrace AI.",
       },
       {
         period: "2023.02 — 2024.03",
         company: "DS Smith",
         role: "IT Specialist",
-        note: "Správa podnikových systémů a infrastruktury; provoz v korporátním měřítku.",
+        note: "Komplexní správa podnikových systémů. Zajišťování plynulého chodu IT služeb a infrastruktury v korporátním prostředí.",
       },
       {
         period: "2022.05 — 2022.06",
         company: "DPMÚL",
         role: "IT Infrastructure Intern",
-        note: "Síťová infrastruktura a provoz — start profesní cesty.",
+        note: "Podpora a správa síťové infrastruktury — úspěšný start mé profesní cesty.",
       },
     ],
   },
   contact: {
     eyebrow: "Kontakt",
     headline:
-      "Hledáte juniora do týmu? Nebo potřebujete postavit web či automatizaci?",
+      "Hledáte juniora do týmu? Nebo potřebujete postavit web či zautomatizovat procesy?",
     copy: "Kopírovat e-mail",
     copied: "Zkopírováno",
     cv: "Stáhnout CV",
@@ -147,14 +148,14 @@ export const cs: Content = {
       id: "tattly",
       title: "Tattly",
       year: "2026",
-      category: "SaaS platforma",
-      tagline: "Rezervační SaaS pro tatéry — klienti, kalendář, notifikace.",
+      category: "SaaS platformy a API",
+      tagline: "Komplexní rezervační platforma pro tatéry s automatickými notifikacemi a správou klientů.",
       brief:
-        "Tatéři řeší rezervace přes zprávy na Instagramu a papírové diáře. Chtěl jsem postavit systém, který to zvládne za ně.",
+        "Tatéři běžně tráví hodiny řešením rezervací přes zprávy a papírové diáře. Cílem bylo vytvořit systém, který celý proces zautomatizuje a zpřehlední.",
       solution:
-        "Rezervační platforma s vlastním účtem — správa dostupnosti a klientů, nahrávání fotek, e-mailové notifikace a export do kalendáře.",
+        "Plně funkční rezervační systém s vlastní správou dostupnosti, profilem pro klienty, automatickými upozorněními a synchronizací s kalendářem.",
       learned:
-        "Návrh datového modelu pro časové sloty a produkční integrace: autentizace, e-maily, background joby a object storage.",
+        "Návrh složitých datových modelů pro časové sloty a produkční integrace pro autentizaci, komunikaci a bezpečné ukládání dat.",
       stack: [
         "Next.js 15",
         "TypeScript",
@@ -171,14 +172,14 @@ export const cs: Content = {
       id: "taxfolio",
       title: "Taxfolio",
       year: "2026",
-      category: "Automatizace & data",
-      tagline: "Live dashboard portfolia z Trading 212 s hlídáním českých daní.",
+      category: "AI a skript automatizace",
+      tagline: "Analytický dashboard pro investiční portfolio s automatickým výpočtem a hlídáním daní.",
       brief:
-        "Investování přes Trading 212 generuje stovky obchodů ročně — a s nimi ruční počítání daní. Chtěl jsem přehled, který data stáhne, spočítá a vysvětlí.",
+        "Aktivní investování generuje stovky transakcí ročně, což komplikuje daňová přiznání. Potřeboval jsem nástroj, který data automaticky zpracuje a vyhodnotí.",
       solution:
-        "Next.js dashboard napojený přímo na live Trading 212 API — hlídá hodnotový test (limit 100 000 Kč) i časový test s FIFO účtováním lotů a ukazuje, kdy která pozice přestane být zdanitelná.",
+        "Systém napojený na reálná tržní data přes API. Automaticky páruje nákupy a prodeje, hlídá daňové limity a časové testy podle platné legislativy.",
       learned:
-        "Napojení live API s rate limity (cache, paginace, error handling) a implementace daňové logiky — FIFO loty, hodnotový a časový test podle §4 zákona o daních z příjmů.",
+        "Práce s živými daty přes API, optimalizace dotazů a implementace komplexní finanční a daňové logiky do spolehlivého celku.",
       stack: [
         "Next.js 16",
         "React 19",
@@ -194,14 +195,14 @@ export const cs: Content = {
       id: "knihotok",
       title: "Knihotok",
       year: "2025",
-      category: "Full-stack systém",
-      tagline: "Čtenářská platforma — od nápadu po obhajobu.",
+      category: "SaaS platformy a API",
+      tagline: "Komunitní platforma pro čtenáře zaměřená na sdílení a hodnocení knih.",
       brief:
-        "Maturitní projekt na střední škole: webová aplikace pro čtenáře — od návrhu databáze po obhajobu před komisí.",
+        "Cílem maturitního projektu bylo navrhnout a realizovat kompletní webový systém pro evidenci a recenzování knih od prvotního konceptu až po finální obhajobu.",
       solution:
-        "Oddělený backend (Express + PostgreSQL s JWT autentizací) a frontend (React + Vite) — knihovna, hodnocení a uživatelské profily.",
+        "Rozdělená architektura backendu a frontendu. Tvorba vlastního rozhraní pro komunikaci s databází, zajištění bezpečného přihlašování a interaktivního prostředí.",
       learned:
-        "Kompletní full-stack cyklus: návrh API, autentizace, nasazení — a obhajoba vlastního kódu před komisí.",
+        "Zvládnutí celého cyklu vývoje aplikace, od návrhu databáze přes zabezpečení přístupu až po úspěšnou prezentaci hotového řešení.",
       stack: ["React", "Vite", "Express", "PostgreSQL", "JWT"],
       type: "Maturitní projekt",
       status: "Live",
@@ -210,14 +211,14 @@ export const cs: Content = {
       id: "refugio",
       title: "Refugio",
       year: "2025",
-      category: "Web & brand",
-      tagline: "Web pro restauraci — atmosféra, menu, rezervace.",
+      category: "Weby a kompletní design",
+      tagline: "Vizuálně atraktivní web pro restauraci s důrazem na atmosféru a plynulý uživatelský zážitek.",
       brief:
-        "Restaurace potřebovala web, který prodá atmosféru i menu — a funguje skvěle na mobilu.",
+        "Lokální restaurace potřebovala moderní prezentaci, která zákazníkům přiblíží její jedinečnou atmosféru a bude skvěle fungovat i na mobilu.",
       solution:
-        "Vizuálně bohatý web s motion vrstvou — menu, galerie a kontakt v jednom plynulém zážitku.",
+        "Dynamický a responzivní web s plynulými animacemi, který spojuje jídelní lístek, galerii a kontakty do jednoho přehledného celku.",
       learned:
-        "Jak skloubit výrazný vizuál s rychlostí a čitelností — a jak navrhovat pro malé obrazovky první.",
+        "Hledání rovnováhy mezi bohatým vizuálním designem a rychlostí načítání, s primárním zaměřením na responzivitu a přístupnost.",
       stack: ["React 19", "Vite", "Tailwind CSS", "Framer Motion"],
       type: "Klientský projekt",
       status: "Live",
