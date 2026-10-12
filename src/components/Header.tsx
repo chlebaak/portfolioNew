@@ -92,7 +92,7 @@ export function Header({
           {site.name}
         </a>
 
-        <div className="flex items-center gap-5 md:gap-7">
+        <div className="flex items-center gap-4 md:gap-7">
           <nav
             aria-label={content.header.languageLabel}
             className="flex items-center gap-2 text-[13px] font-medium uppercase tracking-[0.08em] [font-stretch:115%]"
@@ -140,7 +140,10 @@ export function Header({
           >
             {content.header.consoleLabel}
             <Kbd
-              className={light ? "border-white/30 text-white/70" : undefined}
+              className={cn(
+                "hidden md:inline",
+                light && "border-white/30 text-white/70",
+              )}
             >
               {shortcutLabel}
             </Kbd>

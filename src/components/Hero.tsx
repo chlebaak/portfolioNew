@@ -70,7 +70,7 @@ export function Hero({ content }: { content: SiteContent }) {
                 alt=""
                 fill
                 quality={85}
-                sizes="100vw"
+                sizes="(max-aspect-ratio: 16/10) 160vh, 100vw"
                 loading="eager"
                 fetchPriority="high"
                 className="object-cover object-top"

@@ -257,7 +257,7 @@ export function ProjectSheetProvider({
                           alt=""
                           fill
                           quality={85}
-                          sizes="(min-width: 1680px) 1520px, (min-width: 768px) calc(100vw - 80px), calc(100vw - 40px)"
+                          sizes="(max-aspect-ratio: 17/20) 102vh, (min-width: 1680px) 1520px, (min-width: 768px) calc(100vw - 80px), calc(100vw - 40px)"
                           className="object-cover object-top"
                         />
                       )}

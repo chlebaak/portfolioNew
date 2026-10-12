@@ -75,7 +75,7 @@ export function TelemetryStrip({
             <span ref={clockRef} className="tabular-nums">
               --:--:--.---
             </span>{" "}
-            <span className="text-sm font-normal text-muted">{zone}</span>
+            <span className="hidden text-sm font-normal text-muted md:inline">{zone}</span>
           </Stat>
           <Stat label={t.status}>
             <span className="flex items-center gap-2 text-accent">
